@@ -1,0 +1,45 @@
+
+
+.wtf{
+    margin-top: 10px;
+    background-color:darkorchid;
+}
+
+
+h1{
+    font-size: 60px;
+    font-family: 'Lobster', 'cursive';
+    margin-left: 40px;
+    margin-top: 20px;
+    color: aliceblue;
+}
+
+
+.menu ul{
+    background-color:cornflowerblue;
+    text-align: center;
+}
+
+
+.it {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    display: inline-flex;
+    text-align: center;
+}
+
+
+.it a{
+    font-family: 'Lobster', 'cursive';
+    font-family: 'Ysabeau', sans-serif;
+    text-decoration: none;
+    font-size: 30px;
+    padding-left: 90px;
+    text-align: left;
+    color: aliceblue;
+}
+
+
+body{
+    background-color: bisque;
+}
