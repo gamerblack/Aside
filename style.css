@@ -15,13 +15,13 @@ h1{
 }
 
 
-.menu ul{
+.cabeçalho ul{
     background-color:cornflowerblue;
     text-align: center;
 }
 
 
-.it {
+.menu {
     margin-top: 10px;
     margin-bottom: 5px;
     display: inline-flex;
@@ -29,14 +29,38 @@ h1{
 }
 
 
-.it a{
-    font-family: 'Lobster', 'cursive';
+.menu a{
     font-family: 'Ysabeau', sans-serif;
     text-decoration: none;
     font-size: 30px;
     padding-left: 90px;
     text-align: left;
     color: aliceblue;
+}
+
+
+main{
+    line-height: 50px;
+}
+
+
+.esp{
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: brown;
+    color: antiquewhite;
+    border-radius: 5%;
+}
+
+
+footer{
+    margin-bottom: 0px;
+    font-family: 'Ysabeau', sans-serif;
+}
+
+footer a {
+    text-decoration: none;
 }
 
 
