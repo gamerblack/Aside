@@ -1,18 +1,18 @@
 .wtf{
-    margin-top: 10px;
     background-color:brown;
-    border-radius: 10px;
+    margin-top: 15px;
     margin-left: 15px;
     margin-right: 15px;
+    border-radius: 10px;
 }
 
 
-h1{
-    font-size: 60px;
-    font-family: 'Lobster', 'cursive';
+.name{
+    font-size: 70px;
     margin-left: 40px;
     margin-top: 20px;
     color: white;
+    
 }
 
 
@@ -25,6 +25,7 @@ h1{
 .menu {
     margin-top: 10px;
     margin-bottom: 5px;
+    margin-left: 130px;
     display: inline-flex;
     text-align: center;
 }
@@ -47,8 +48,8 @@ main{
 
 .esp{
     margin-top: 50px;
-    margin-left: 40px;
-    margin-right: 40%;
+    margin-left: 30px;
+    width: 58%;
     background-color: rgb(116, 28, 28);
     color: antiquewhite;
     border-radius: 20px;
@@ -57,6 +58,7 @@ main{
 
 .esp img{
     display:inline;
+    margin-left: 5px;
 } 
 
 
@@ -69,9 +71,9 @@ main{
 
 
 .video {
+    width: 58%;
     margin-top: 40px;
-    margin-left: 40px;
-    margin-right: 40%;
+    margin-left: 30px;
     background-color:sienna;
     border-radius: 20px;
 }
@@ -79,16 +81,36 @@ main{
 
 .video iframe{
     margin-top: 30px;
-    margin-left: 40px;
+    margin-left: 5%;
     margin-bottom: 10px;
     border-radius: 5px;
 }
 
 
+.imglink{
+    width: 58%;
+    margin-left: 15px;
+    background-color: maroon;
+    border-radius: 10px;
+    margin-top: 25px;
+}
+
+
+.imglink a{
+    display:inline;
+    margin-left: 65px;
+}
+
+
+.imglink img:hover{
+    height: 203px;
+}
+
+
 .contato {
-    margin-top: 50px;
-    margin-left: 40px;
-    margin-right: 40%;
+    width: 58%;
+    margin-top: 25px;
+    margin-left: 30px;
     background-color: maroon;
     border-radius: 20px;
     color: bisque;
@@ -103,12 +125,20 @@ main{
 
 footer{
     text-align: center;
-    margin: 40px;
+    margin-left: 0px;
     margin-bottom: 0px;
+    margin-top: 40px;
     font-family: 'Ysabeau', sans-serif;
     background-color: rgb(28,28,28);
     padding: 40px 10px;
     color: rgb(211,211,211);
+    line-height: 25px;
+}
+
+
+h2{
+    font-size: 34px;
+    margin-bottom: 15px;
 }
 
 
