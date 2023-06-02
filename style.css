@@ -106,6 +106,13 @@ main{
 }
 
 
+td{
+    border: solid 2px black;
+    /* bordr: tipo, tamanho, cor */
+    padding: 5px;
+}
+
+
 .contato {
     width: 58%;
     margin-top: 25px;
