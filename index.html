@@ -9,25 +9,45 @@
 
             <link rel="stylesheet" href="style.css">
 
+            <title>Aside - Início</title>
+
         </head>
 
         <body>
 
-            <header class="wtf">
+            <header class="wtf" id="topo">
 
                 <section>
 
-                    <img>
+                    <img class="logo" src="cappuccino.png" alt="cappuccino" onclick="blg()">
+
+                    <!-- Em onclick, ativa a função o script em um clik -->
+
+                   <script>
+
+                    function blg() {
+
+                        alert("Essa é a logo")
+                    }
+
+                   </script>
+
+                   <!-- Ta pciicando qual função  logo iz o que ela faz-->
+
 
                     <h1 class="name">Aside</h1>
 
+
                     <nav class="cabeçalho">
+
+
                         <ul>
                             <li class="menu"><a href="index.html">Pag1</a></li>
-                            <li class="menu"><a href="index2.html">Pag2</a></li>
-                            <li class="menu"><a href="index3.html">Pag3</a></li>
+                            <li class="menu"><a href="Página2.html">Pag2</a></li>
+                            <li class="menu"><a href="Página3.html">Pag3</a></li>
 
                         </ul>
+
 
                     </nav>
 
@@ -45,7 +65,6 @@
                     
                 </section>
 
-
                 <section class="video">
                     <p>
                         <!-- video compart <> copia e arruma ps cola (arrumei pra coneguir enxergar)-->
@@ -54,11 +73,25 @@
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
                         allowfullscreen></iframe>
 
+
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/3KbcXxy_ttc" 
+                        title="YouTube video player" frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                        allowfullscreen></iframe>
+
                     </p>
+
                 </section>
 
                 <section class="local">
+
                 </section>
+
+
+                <a class="btn" href="#topo" title="ir ao topo">&#8657;</a>
+
+                <!-- o href ta puxano o id do header logo dps do #, tittle é o que vai aparecer e icar com o mouse encima,
+                -->
 
             </main>
 
@@ -76,6 +109,7 @@
                 </aside>
 
             </footer>
+
         </body>
 
     </html>

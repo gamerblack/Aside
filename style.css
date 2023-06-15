@@ -10,15 +10,35 @@
 .name{
     font-size: 70px;
     margin-left: 40px;
-    margin-top: 20px;
+    margin-top: 50px;
     color: white;
-    
+    float: left;
+    transition: 2s;
+}
+
+
+.name:hover {
+    color: sandybrown;
+    transition: 1s;
+}
+
+
+.logo{
+    height: 100px;
+    margin-left: 30px;
+    margin-top: 40px;
+    margin-bottom: 30px;
 }
 
 
 .cabeçalho ul{
     background-color: rgb(28,28,28);
     text-align: center;
+}
+
+
+.cabeçalho a:hover {
+    color: darksalmon;
 }
 
 
@@ -83,16 +103,17 @@ main{
     margin-top: 30px;
     margin-left: 5%;
     margin-bottom: 10px;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 
 
 .imglink{
     width: 58%;
     margin-left: 15px;
-    background-color: maroon;
-    border-radius: 10px;
-    margin-top: 25px;
+    background-color: #80000095;
+    /* # (dois n° vermelho)(dois n° verde)(dois n° azul)(dois n° opacidade) */
+    border-radius: 25px;
+    margin-top: 15px;
 }
 
 
@@ -106,14 +127,26 @@ main{
 }
 
 
+.tabela{
+    background-color: sienna;
+    padding: 10px;
+    margin-left: 15px;
+    margin-top: 20px;
+    border-radius: 25px;
+    width: 57%;
+}
+
+
 table{
-    margin-left: 60px;
-    margin-top: 30px;
+    margin-left: 25px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    background-color: bisque;
 }
 
 
 td{
-    border: solid 2px black;
+    border: solid 3px rgb(37, 35, 35);
     /* bordr: tipo, tamanho, cor */
     padding: 5px;
     text-align: center;
@@ -133,6 +166,12 @@ td{
 .contato a {
     text-decoration: none;
     color: bisque;
+}
+
+
+.btn {
+    position: relative;
+    height: 40px;
 }
 
 
