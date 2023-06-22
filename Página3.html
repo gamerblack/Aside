@@ -37,6 +37,71 @@
 
             <main>
                 <section class="comentário">
+
+                    <form>
+
+                        <label for="nome"> Nome:</label>
+                        <input type="text" id="nome" class="area" required placeholder="Nome/Apelido">
+
+                        <!-- tipo, id, classe, required (reposta obrigatório), placeholder (nome que desaparece dps q digita) -->
+
+                        <!-- type:
+                            text
+                            email
+                            password
+                            tel
+                            radio(bolinha de selção)
+                            checkbox
+                            submit (botão)
+                        -->
+
+                        <label for="e-mail">E-mail</label>
+                        <input type="email" id="e-mail" class="area" placeholder="e-mail@email.com">
+
+                        <label for="obs">Observação</label>
+                        <textarea name="" id="obs" cols="80" class="obs" rows="5" placeholder="Digite aqui..."></textarea>
+
+                        <!-- cols= caracteres em cada linha
+                        rows= quant de linhas -->
+
+
+                        <Fieldset class="sel">
+
+                            <legend>Selecione:</legend>
+
+                            <label for="op-manhã" value="manhã">
+
+                                <input name="hora" type="radio" id="op-manhã">
+
+                                Manhã
+
+                            </label>
+
+                            <label for="op-tarde" value="tarde">
+
+                                <input name="hora" type="radio" id="op-tarde">
+
+                                Tarde
+
+                            </label>
+
+                            <label for="op-noite" value="noite">
+
+                                <input name="hora" type="radio" id="Noite">
+
+                                Noite
+
+                            </label>
+
+                            <!-- caso ja queira que uma opção venha marcada coloque "checked" no final o input -->
+
+                        </Fieldset>
+
+                        <input type="submit" class="enviar" value="Enviar"> 
+                        <!-- Nesse caso o value = escita no botão -->
+
+                    </form>
+
                 </section>
 
                 <section class="contato">
