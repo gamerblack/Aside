@@ -116,7 +116,7 @@ main{
 .imglink{
     width: 58%;
     margin-left: 15px;
-    background-color: sienna;
+    background-color: rgb(123, 36, 28);
     /* # (dois n° vermelho)(dois n° verde)(dois n° azul)(dois n° opacidade) */
     border-radius: 25px;
     margin-top: 30px;
@@ -134,7 +134,7 @@ main{
 
 
 .tabela{
-    background-color: maroon;
+    background-color: rgb(144, 72, 40);
     padding: 10px;
     margin-left: 15px;
     margin-top: 40px;
@@ -147,13 +147,13 @@ table{
     margin-left: 45px;
     margin-top: 30px;
     margin-bottom: 25px;
-    background-color: darksalmon;
+    background-color: burlywood;
     width: 90%;
 }
 
 
 td{
-    border: solid 3px burlywood;
+    border: solid 3px darkred;
     /* bordr: tipo, tamanho, cor */
     padding: 5px;
     text-align: center;
@@ -168,7 +168,7 @@ form{
 
 .comentário{
     color: antiquewhite;
-    background-color: maroon;
+    background-color: sienna;
     padding: 10px;
     margin-left: 30px;
     margin-top: 40px;
@@ -181,16 +181,13 @@ label{
     display: block;
 }
 
-#e-mail{
-    padding-left: 5px;
-}
-
 
 .area{
     margin-left: 25px;
     height: 40px;
-    width: 45%;
-    border-radius: 10%;
+    width: 65%;
+    padding-left: 15px;
+    border-radius: 5px;
 }
 
 
@@ -202,9 +199,18 @@ label{
 
 
 .enviar{
-    border-radius: 20%;
-    height: 36px;
-    width: 70px;
+    height: 40px;
+    width: 500px;
+    transition: 3s;
+    margin-left: 37%;
+    border-radius: 20px;
+}
+
+
+.enviar:hover {
+    background-color: maroon;
+    transition: 1.5s;
+    color: burlywood;
 }
 
 

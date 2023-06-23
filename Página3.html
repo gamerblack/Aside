@@ -40,7 +40,7 @@
 
                     <form>
 
-                        <label for="nome"> Nome:</label>
+                        <label for="nome"><b>Nome:</b></label>
                         <input type="text" id="nome" class="area" required placeholder="Nome/Apelido">
 
                         <!-- tipo, id, classe, required (reposta obrigatório), placeholder (nome que desaparece dps q digita) -->
@@ -55,8 +55,13 @@
                             submit (botão)
                         -->
 
-                        <label for="e-mail">E-mail</label>
+                        <label for="e-mail"><b>E-mail</b></label>
                         <input type="email" id="e-mail" class="area" placeholder="e-mail@email.com">
+
+
+                        <label for="tel"><b>Telefone/Celular:</b></label>
+                        <input type="tel" id="tel" class="area" placeholder="(**) * *****-****" required>
+
 
                         <label for="obs">Observação</label>
                         <textarea name="" id="obs" cols="80" class="obs" rows="5" placeholder="Digite aqui..."></textarea>
@@ -67,7 +72,7 @@
 
                         <Fieldset class="sel">
 
-                            <legend>Selecione:</legend>
+                            <legend><b>Selecione:</b></legend>
 
                             <label for="op-manhã" value="manhã">
 
@@ -95,7 +100,28 @@
 
                             <!-- caso ja queira que uma opção venha marcada coloque "checked" no final o input -->
 
+
+                            <b><legend>Aleatório: </legend></b>
+
+                            <select name="" id="" class="section">
+
+                                <option value="">Sorvete</option>
+
+                                <option value="" checked>Café</option>
+
+                                <option value="">MilkShake</option>
+
+                            </select>
+
                         </Fieldset>
+
+                        <label class="" for="checkbox">
+
+                            <input type="checkbox" id="checkbox"> Termos e Condições
+
+                        </label>
+
+                        <!-- Caso tenha mais e uma opção seria bom colocar entro do fiedset -->
 
                         <input type="submit" class="enviar" value="Enviar"> 
                         <!-- Nesse caso o value = escita no botão -->
