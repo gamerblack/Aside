@@ -113,6 +113,25 @@ main{
 }
 
 
+.local{
+    margin-top: 50px;
+    margin-left: 30px;
+    width: 58%;
+    background-color: rgb(116, 28, 28);
+    color: antiquewhite;
+    border-radius: 20px;
+}
+
+
+.local iframe{
+    margin-top: 40px;
+    margin-left: 10%;
+    width: 80%;
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+
+
 .imglink{
     width: 58%;
     margin-left: 15px;
@@ -209,13 +228,17 @@ label{
     transition: 3s;
     margin-left: 37%;
     border-radius: 20px;
+    border: solid 2px burlywood;
+    background-color: saddlebrown;
+    color: burlywood;
 }
 
 
 .enviar:hover {
-    background-color: maroon;
+    background-color: burlywood;
+    border: solid 2px saddlebrown;
+    color: saddlebrown;
     transition: 1.5s;
-    color: burlywood;
 }
 
 
@@ -243,13 +266,13 @@ label{
 
 select{
     margin-left: 25px;
-    background-color: rgb(238, 132, 82);
+    background-color: burlywood;
     height: 40px;
     width: 25%;
     padding: 7px;
     border-radius: 5px;
     border: solid 2px saddlebrown;
-    color: antiquewhite;
+    color: saddlebrown;
     font-size: 17px;
     font-family: 'Times New Roman', Times, serif;
     display: block;
