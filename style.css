@@ -188,13 +188,18 @@ label{
     width: 65%;
     padding-left: 15px;
     border-radius: 5px;
+    background-color: peru;
+    border: solid 2px saddlebrown;
 }
 
 
 .obs{
+    padding: 10px;
     margin-left: 15px;
     height: 300px;
     border-radius: 5%;
+    background-color: peru;
+    border: solid 2px saddlebrown;
 }
 
 
@@ -236,6 +241,29 @@ label{
 }
 
 
+select{
+    margin-left: 25px;
+    background-color: rgb(238, 132, 82);
+    height: 40px;
+    width: 25%;
+    padding: 7px;
+    border-radius: 5px;
+    border: solid 2px saddlebrown;
+    color: antiquewhite;
+    font-size: 17px;
+    font-family: 'Times New Roman', Times, serif;
+    display: block;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    margin-top: none;
+}
+
+
+option{
+    background-color: rgb(238, 132, 82);
+}
+
+
 footer{
     text-align: center;
     margin-left: 0px;
@@ -261,7 +289,7 @@ footer a {
 
 
 body{
-    background-color: bisque;
+    background-color: lightsalmon;
 }
 
 
